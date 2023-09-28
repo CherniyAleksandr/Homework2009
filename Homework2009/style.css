@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} */
+
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.text {
+  background-image: url(./image/backgroundHead.svg);
+  max-width: 100%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 734px;
+  height: 171px;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  gap: 30px;
+  margin-top: 192px;
+  color: white;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: white;
+  width: 734px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+  background-color: white;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  width: 190px;
+  height: 186px;
+}
+
+.container > div > h2 {
+  color: #f7654a;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container > div > h3 {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container > div > p {
+  color: #999;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* ======================================= */
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+/* 
+
+для Java Script
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  min-height: 100vh;
+  background: url("./image/backgroundHead.svg");
+}
+
+.first-section h1 {
+  max-width: 734px;
+  margin-bottom: 35px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.first-section p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.div-for-number-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 3.5rem 8.125rem;
+  background: #ffffff;
+}
+
+.number-item {
+  width: 130px;
+}
+
+.div-for-number-items h3 {
+  color: #f7654a;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.div-for-number-items h4 {
+  color: #000000;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.div-for-number-items h5 {
+  color: #999999;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+} */
+
+/* =============================================== */
+
+.our-projects {
+  min-height: 100vh;
+}
+
+#head {
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.projects-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50%;
+  gap: 30px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project p {
+  opacity: 0.6;
+}
+
+.project h3 {
+  color: #404149;
+  margin-bottom: 20px;
+}
+
+.project h3::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 6px;
+  background: #f7654a;
+}
+
+.project img {
+  width: 350px;
+  height: 380px;
+  margin-bottom: 45px;
+}
+
+/* ================================================= */
+
+.request {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 181px;
+  flex-shrink: 0;
+  background: #f7654a;
+}
+
+#request-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.request h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.request p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#request-button {
+  float: right;
+  width: 175px;
+  height: 49px;
+  flex-shrink: 0;
+}
+
+/* =================================================== */
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services h2 {
+  padding-bottom: 66px;
+  padding-top: 150px;
+}
+
+.services-img {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.services-div {
+  text-align: center;
+  background-color: #F7F7F7;
+  padding: 50px;
+  margin: 30px 35px ;
+}
+
+.services-img img {
+  padding-bottom: 10px;
+}
+
+.services-img p {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* =========================================== */
+
+.services1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services1 h2 {
+  padding-bottom: 66px;
+  padding-top: 150px;
+}
+
+.services-img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .services-div1 {
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: 50px;
+    margin: 30px 35px ;
+  }
+
+  .services-img1 img {
+    padding-bottom: 10px;
+  }
+  
+  .services-img1 p {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .services2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services2 h2 {
+    padding-bottom: 66px;
+    padding-top: 150px;
+  }
+  
+  .services-img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .services-div2 {
+      text-align: center;
+      background-color: #F7F7F7;
+      padding: 50px;
+      margin: 30px 35px ;
+    }
+    
+    .services-img2 img {
+      padding-bottom: 10px;
+    }
+    
+    .services-img2 p {
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
